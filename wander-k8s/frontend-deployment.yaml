@@ -32,3 +32,4 @@ spec:
       nodePort: 32000 # Specify a NodePort between 30000-32767
   type: NodePort
 
+
