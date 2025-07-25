@@ -183,3 +183,4 @@ kubectl cp ./data/sample_posts.json mongo-57bcfd54bf-6954p:/tmp/sample_posts.jso
 
 Execute this from cli from folder of yml files located:
 kubectl exec -it mongo-57bcfd54bf-6954p -- mongoimport --db wanderlust --collection posts --file /tmp/sample_posts.json --jsonArray
+
